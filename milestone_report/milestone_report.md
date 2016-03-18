@@ -63,7 +63,7 @@ The preprocessing is mainly performed by using the **tm** (text mining) package.
 
 ## Frequency of words and N-grams
 
-Wordcloud for top 200 words
+Wordcloud for top 300 words
 
 ![](milestone_report_files/figure-html/unnamed-chunk-5-1.png)
 
@@ -118,4 +118,4 @@ The main functionalities of the proposed Shiny app:
 #### Appendix
 
 Milestone Report (markdown) in Github from this link: 
-https://github.com/kuanhoong/Data-Science-Capstone/milestone_report
+https://github.com/kuanhoong/Data-Science-Capstone/tree/master/milestone_report

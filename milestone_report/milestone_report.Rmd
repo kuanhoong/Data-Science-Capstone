@@ -145,13 +145,13 @@ doc.corpus<- tm_map(doc.corpus, PlainTextDocument)
 
 ## Frequency of words and N-grams
 
-Wordcloud for top 200 words
+Wordcloud for top 300 words
 
 ```{r, echo=FALSE, warning=FALSE, fig.width=7, fig.height=5, message=FALSE}
 #visualize using wordcloud
 library(wordcloud)
 
-wordcloud(doc.corpus, max.words = 200, random.order = FALSE,rot.per=0.35, use.r.layout=FALSE,colors=brewer.pal(8, "Dark2"))
+wordcloud(doc.corpus, max.words = 300, random.order = FALSE,rot.per=0.35, use.r.layout=FALSE,colors=brewer.pal(8, "Dark2"))
 
 ```
 
@@ -261,4 +261,4 @@ The main functionalities of the proposed Shiny app:
 #### Appendix
 
 Milestone Report (markdown) in Github from this link: 
-https://github.com/kuanhoong/Data-Science-Capstone/milestone_report
+https://github.com/kuanhoong/Data-Science-Capstone/tree/master/milestone_report
